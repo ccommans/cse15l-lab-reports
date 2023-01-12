@@ -22,3 +22,5 @@ public void swap(int a, int b) {
   b = temp;
 }
 ```
+---
+> *This is italics in a blockquote*
