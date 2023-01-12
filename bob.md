@@ -9,11 +9,13 @@
 * A
 * B
 * C
+
 ---
 `This is a numbered list`
 1. D
 2. E
 3. F
+
 ---
 ```
 public void swap(int a, int b) {
