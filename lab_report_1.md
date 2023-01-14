@@ -4,3 +4,6 @@ Signing in to the *@ieng6* servers remotely is a tricky process involving passwo
 However, following these steps will make the process much easier.
 
 ## 1. Your Remote Account
+## 2. Accessing the Terminal
+## 3. Logging on
+## Addendum: Running Commands
