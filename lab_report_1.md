@@ -27,9 +27,13 @@ Visual Studio Code is an IDE that we can use to access the terminal and can be d
 
 ## III. Logging on
 With now the terminal window open and password reset, you can finally access the remote server. Type (or copy) the command:
+
 `ssh cs15lwi23ABC@ieng6.ucsd.edu`
+
 with "ABC" being replaced by your specific username. Immediately the window will say:
+
 `The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established. RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec. Are you sure you want to continue connecting (yes/no/[fingerprint])? `
+
 This message appears only the first time you remotely connect, so type `yes` and hit enter. You now can enter your account's password to login.
 
 >Note: No characters on the terminal will appear when inputting your password. They are still being inputted however, and hitting enter will verify it. If  `Password:` immediately appears again, that means the password failed and you must re-enter it.
