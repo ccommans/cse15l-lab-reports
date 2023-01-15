@@ -13,12 +13,13 @@ This is your account username; you must also change the password with the link o
 ![pic]()
 
 >Note 1: Here are the password requirements
-> -12-30 characters
-> -Use a mix of uppercase, lowercase, numbers, and special characters.
-> -Do not use any part of your name or username.
-> -Do not use alphabet, number, or keyboard sequences.
+> * 12-30 characters
+> * Use a mix of uppercase, lowercase, numbers, and special characters.
+> * Do not use any part of your name or username.
+> * Do not use alphabet, number, or keyboard sequences.
 
 >Note 2: I've previously had trouble logging in with my password if the special character is an asterisk (\*), so try to use some other character like @ or !
+
 ## II. Accessing the Terminal
 
 ## III. Logging on
