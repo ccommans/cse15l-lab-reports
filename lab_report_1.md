@@ -6,11 +6,11 @@ However, following these steps will make the process much easier.
 ## I. Your Remote Account
 In order to login to the server, you first need the class-specifice credentials for your account, which can found [here](https://sdacs.ucsd.edu/~icc/index.php) after entering your username and PID:
 
-![pic]()
+![pic](acct_lookup.png)
 
 This is your account username; you must also change the password with the link on screen ([also here](https://sdacs.ucsd.edu/~icc/password.php)). Make sure to select "No" for "Change MyTritonLink password?" and "Yes" for "Change course-specific account passwords?":
 
-![pic]()
+![pic](pswd_chng.png)
 
 >Note 1: Here are the password requirements
 > * 12-30 characters
@@ -23,7 +23,7 @@ This is your account username; you must also change the password with the link o
 ## II. Accessing the Terminal
 Visual Studio Code is an IDE that we can use to access the terminal and can be downloaded [here](https://code.visualstudio.com/). Once downloaded and installed, a terminal window can be opened with Terminal -> New Terminal seen below (or via the shortcut Ctrl+Shift+\`):
 
-![pic]()
+![pic](vscode.png)
 
 ## III. Logging on
 With now the terminal window open and password reset, you can finally access the remote server. Type (or copy) the command:
@@ -40,7 +40,7 @@ This message appears only the first time you remotely connect, so type `yes` and
 
 This is what a successful login looks like:
 
-![pic]()
+![pic](lgn_success.png)
 
 Congratulations! You are now logged in on the remote server.
 
@@ -56,4 +56,4 @@ Here are some useful commands:
 
 Here are some of the above commands being used:
 
-![pic]()
+![pic](cmmds.png)
