@@ -7,6 +7,8 @@ class Handler implements URLHandler {
     String display = "";
     public String handleRequest(URI url) {
         System.out.println("Path: " + url.getPath());
+        if (url.getPath().equals("/"))
+            return display;
         if (url.getPath().equals("/add-message")) {
             String[] parameters = url.getQuery().split("=");
             if (parameters[0].equals("s")) {
