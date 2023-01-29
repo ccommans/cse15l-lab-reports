@@ -34,7 +34,9 @@ class StringServer {
 }
 ```
 Screenshot \#1:
+
 ![image]()
+
 - Called methods:
     - handleRequest()
     - getPath()
@@ -42,13 +44,14 @@ Screenshot \#1:
     - getQuery()
     - split()
 - Relevant method arguments and field values:
-    - url = "http://localhost:4000/add-message?s=hi"
+    - url = "http://localhost:4000/add-message\?s=hi"
     - getPath() returns "/add-messages"
     - getQuery() returns "s=hi"
     - parameters array contains \["s", "hi"]
     - display String is changed from "" to "hi"
 
 Screenshot \#2:
+
 ![image]()
 
 - Called methods:
@@ -58,7 +61,7 @@ Screenshot \#2:
     - getQuery()
     - split()
 - Relevant method arguments and field values:
-    - url = "http://localhost:4000/add-message?s=1234"
+    - url = "http://localhost:4000/add-message\?s=1234"
     - getPath() returns "/add-messages"
     - getQuery() returns "s=1234"
     - parameters array contains \["s", "1234"]
