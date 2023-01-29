@@ -33,3 +33,33 @@ class StringServer {
     }
 }
 ```
+Screenshot \#1:
+![image]()
+- Called methods:
+    - handleRequest()
+    - getPath()
+    - equals() (4 times on lines 8,10,12,13)
+    - getQuery()
+    - split()
+- Relevant method arguments and field values:
+    - url = "http://localhost:4000/add-message?s=hi"
+    - getPath() returns "/add-messages"
+    - getQuery() returns "s=hi"
+    - parameters array contains \["s", "hi"]
+    - display String is changed from "" to "hi"
+
+Screenshot \#2:
+![image]()
+
+- Called methods:
+    - handleRequest()
+    - getPath()
+    - equals() (4 times on lines 8,10,12,13)
+    - getQuery()
+    - split()
+- Relevant method arguments and field values:
+    - url = "http://localhost:4000/add-message?s=1234"
+    - getPath() returns "/add-messages"
+    - getQuery() returns "s=1234"
+    - parameters array contains \["s", "1234"]
+    - display String is changed from "hi" to "hi\n1234"
