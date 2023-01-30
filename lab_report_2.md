@@ -87,7 +87,7 @@ public void testReverseInPlacePass() {
 ```
 Output (Symptom):
 
-![image](lab2-part2-1)
+![image](lab2-part2-1.png)
 
 Code before bux fix:
 ```
