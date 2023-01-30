@@ -35,7 +35,7 @@ class StringServer {
 ```
 Screenshot \#1:
 
-![image]()
+![image](lab2-part1-1.png)
 
 - Called methods:
     - handleRequest()
@@ -52,7 +52,7 @@ Screenshot \#1:
 
 Screenshot \#2:
 
-![image]()
+![image](lab2-part1-2.png)
 
 - Called methods:
     - handleRequest()
@@ -87,7 +87,7 @@ public void testReverseInPlacePass() {
 ```
 Output (Symptom):
 
-![image]()
+![image](lab2-part2-1)
 
 Code before bux fix:
 ```
