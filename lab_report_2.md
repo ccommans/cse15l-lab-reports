@@ -45,7 +45,7 @@ Screenshot \#1:
     - split()
 - Relevant method arguments and field values:
     - url = "http://localhost:4000/add-message?s=hi"
-    - getPath() returns "/add-messages"
+    - getPath() returns "/add-message"
     - getQuery() returns "s=hi"
     - parameters array contains \["s", "hi"]
     - display String is changed from "" to "hi"
@@ -62,7 +62,7 @@ Screenshot \#2:
     - split()
 - Relevant method arguments and field values:
     - url = "http://localhost:4000/add-message?s=1234"
-    - getPath() returns "/add-messages"
+    - getPath() returns "/add-message"
     - getQuery() returns "s=1234"
     - parameters array contains \["s", "1234"]
     - display String is changed from "hi" to "hi\n1234"
