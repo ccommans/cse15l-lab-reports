@@ -70,20 +70,20 @@ Screenshot \#2:
 Failure-inducing input:
 ```
 @Test
-  public void testReverseInPlaceFail() {
+public void testReverseInPlaceFail() {
     int[] input = {1,2,3};
     ArrayExamples.reverseInPlace(input);
     assertArrayEquals(new int[]{3,2,1}, input);
-	}
+}
 ```
 Non-failing input:
 ```
 @Test 
-	public void testReverseInPlacePass() {
+public void testReverseInPlacePass() {
     int[] input = {3};
     ArrayExamples.reverseInPlace(input);
     assertArrayEquals(new int[]{3}, input);
-  }
+}
 ```
 Output (Symptom):
 
@@ -93,18 +93,18 @@ Code before bux fix:
 ```
 static void reverseInPlace(int[] arr){
     for(int i = 0; i < arr.length; i += 1) {
-      arr[i] = arr[arr.length - i - 1];
+        arr[i] = arr[arr.length - i - 1];
     }
-  }
+}
 ```
 Code after bug fix:
 ```
 static void reverseInPlace(int[] arr) {
     int[] newArray = arr.clone();
     for(int i = 0; i < arr.length; i += 1) {
-      arr[i] = newArray[arr.length - i - 1];
+        arr[i] = newArray[arr.length - i - 1];
     }
-  }
+}
 ```
 This fixes the bug because the copy allows the first half of the original array's values to no longer be overwritten, so they can then be copied over to the back half of the array.
 ## Part 3
