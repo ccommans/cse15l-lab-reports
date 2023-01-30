@@ -108,3 +108,4 @@ static void reverseInPlace(int[] arr) {
 ```
 This fixes the bug because the copy allows the first half of the original array's values to no longer be overwritten, so they can then be copied over to the back half of the array.
 ## Part 3
+Week 2 lab was my first introduction to creating web servers. I had seen localhost before, but was unaware about port numbers and the fact that it was all done on my computer. To me, it was really cool seeing the code I wrote appear on a web page.
