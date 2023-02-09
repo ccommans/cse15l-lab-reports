@@ -1,3 +1,6 @@
+## Introduction
+This lab concerned web servers, testing code, bug fixing. JUnit allows us to test specific methods and failure-inducing inputs in order to more accurately determine bugs in a program. This lab report will examine the creation of a web server and fixing a specific bug in an arrays method. 
+
 ## Part 1
 ```
 import java.io.IOException;
@@ -107,7 +110,7 @@ static void reverseInPlace(int[] arr) {
     }
 }
 ```
-This fixes the bug because the copy allows the first half of the original array's values to no longer be overwritten, so they can then be copied over to the back half of the array.
+Prior to the fix, the original array is being edited, starting from the beginning and moving forward, with values accessed from the same array, starting from the end and moving backward. So after the first half of the array is processed using this algorithm, the remaining elements that should be changed to elements from the front of the original array remain unchanged. The following code fixes the bug because the clone allows the first half of the original array's values to no longer be lost, so they can then be copied over to the back half of the array.
 
 ## Part 3
 Week 2 lab was my first introduction to creating web servers. I had seen localhost before, but was unaware about port numbers and the fact that it was all done on my computer. To me, it was really cool seeing the code I wrote appear on a web page.
