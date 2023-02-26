@@ -8,4 +8,4 @@ Hello :) This is *index*
 
 [Lab Report 3](https://ccommans.github.io/cse15l-lab-reports/lab_report_3)
 
-[Lab Report 4](https://ccommans.github.io/cse15l-lab-reports/lab_report_4)
+[Lab Report 4](https://ccommans.github.io/cse15l-lab-reports/labreport4/lab_report_4)
