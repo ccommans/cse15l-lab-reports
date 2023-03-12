@@ -156,6 +156,7 @@ surprised me as well because of how it similarly ran with the theme of Lists wit
 
 ## Example Repositories
 The example repositores can be found on [Week 6 Lab](https://ucsd-cse15l-w23.github.io/week/week6/)
+
 1: list-methods-lab3
 
 ![image](example1.png)
