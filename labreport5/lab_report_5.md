@@ -155,7 +155,7 @@ which uses other astronomical words in its example List. Other tests like:
 surprised me as well because of how it similarly ran with the theme of Lists with lowercase letters for merge() tests. Regardless, I had more tests to ensure all the parts of my grading script, the grade calculation especially, ran as expected.
 
 ## Example Repositories
-The example reposititores can be found on [Week 6 Lab](https://ucsd-cse15l-w23.github.io/week/week6/)
+The example repositores can be found on [Week 6 Lab](https://ucsd-cse15l-w23.github.io/week/week6/)
 1. list-methods-lab3
 
 ![image](example1.png)
