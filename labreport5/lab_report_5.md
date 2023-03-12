@@ -156,19 +156,19 @@ surprised me as well because of how it similarly ran with the theme of Lists wit
 
 ## Example Repositories
 The example repositores can be found on [Week 6 Lab](https://ucsd-cse15l-w23.github.io/week/week6/)
-1. list-methods-lab3
+1: list-methods-lab3
 
 ![image](example1.png)
 
-2. list-methods-corrected 
+2: list-methods-corrected 
 
 ![image](example2.png) 
 
-3. list-methods-compile-error 
+3: list-methods-compile-error 
 
 ![image](example3.png)
 
-4. list-methods-signature 
+4: list-methods-signature 
 
 ![image](example4.png) 
 
@@ -176,10 +176,10 @@ The example repositores can be found on [Week 6 Lab](https://ucsd-cse15l-w23.git
 
 ![image](example5.png)
 
-6. list-methods-nested 
+6: list-methods-nested 
 
 ![image](example6.png)
 
-7. list-examples-subtle 
+7: list-examples-subtle 
 
 ![image](example7.png)
