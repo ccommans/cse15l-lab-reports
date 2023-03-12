@@ -128,6 +128,51 @@ This is the beginning of the grade calculation portion, and was by far the most 
 
 This is the syntax of arithmetic in a bash script. Getting help from [this article](https://ryanstutorials.net/bash-scripting-tutorial/bash-arithmetic.php), I was eventually able to write this formula for grade percentage with the numbers from the `grep` commands above.
 
-## The Tester
-Given the tedium of writing JUnit tests, I figured I could get some help using ChatGPT.
-- .
+## JUnit Tester (with ChatGPT)
+Given the tedium of writing JUnit tests, I figured I could get some help using ChatGPT. I gave it the method descriptions and signatures for the merge() and filter() methods, along with the few inital tests given, and asked it to create more tests for those methods.
+
+This test for filter() in particular suprised me because of how it utilized only the StringChecker looking for "moon" to create:
+```
+@Test(timeout = 500)
+  public void testFilterSomeMatches() {
+    List<String> input = Arrays.asList("sun", "moon", "stars", "Moon", "galaxy");
+    List<String> expected = Arrays.asList("moon", "Moon");
+    List<String> filtered = ListExamples.filter(input, new IsMoon());
+    assertEquals(expected, filtered);
+  }
+```
+which uses other astronomical words in its example List. Other tests like:
+```
+@Test(timeout = 500)
+  public void testMergeDifferentLists() {
+    List<String> list1 = Arrays.asList("a", "c", "e");
+    List<String> list2 = Arrays.asList("b", "d", "f");
+    List<String> merged = ListExamples.merge(list1, list2);
+    List<String> expected = Arrays.asList("a", "b", "c", "d", "e", "f");
+    assertEquals(expected, merged);
+  }
+```
+surprised me as well because of how it similarly ran with the theme of Lists with lowercase letters for merge() tests. Regardless, I had more tests to ensure all the parts of my grading script, the grade calculation especially, ran as expected.
+
+## Example Repositories
+The example reposititores can be found on [Week 6 Lab](https://ucsd-cse15l-w23.github.io/week/week6/)
+1. list-methods-lab3
+![image](example1.png)
+
+2. list-methods-corrected 
+![image](example2.png) 
+
+3. list-methods-compile-error 
+![image](example3.png)
+
+4. list-methods-signature 
+![image](example4.png) 
+
+5. list-methods-filename 
+![image](example5.png)
+
+6. list-methods-nested 
+![image](example6.png)
+
+7. list-examples-subtle 
+![image](example7.png)
