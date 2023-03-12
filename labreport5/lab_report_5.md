@@ -172,7 +172,7 @@ The example repositores can be found on [Week 6 Lab](https://ucsd-cse15l-w23.git
 
 ![image](example4.png) 
 
-5. list-methods-filename 
+5: list-methods-filename 
 
 ![image](example5.png)
 
